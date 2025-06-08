@@ -26,7 +26,7 @@ const Navbar = ({ setIsAuthenticated }) => {
 
   return (
     <nav className="bg-blue-500 text-white p-4">
-      <div className="container mx-auto flex items-center justify-between">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between">
         {/* Logo */}
         <div className="flex-shrink-0">
           <Link to="/">
