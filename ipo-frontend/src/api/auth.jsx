@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://127.0.0.1:8000/auth";
+const API_URL = "https://ipo-webapp-backend.onrender.com/auth";
 
 export const registerUser = async (username, password) => {
     return axios.post(`${API_URL}/signupnow/`, { username, password });
