@@ -13,10 +13,10 @@ import { useRef } from "react";
 const Home = () => {
   const swiperRef = useRef(null);
   return (
-    <div className="container mx-auto p-6">
+    <div className="max-w-screen-xl mx-auto p-6">
       
       {/* First Section */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center justify-center md:justify-between gap-10">
 
         {/* Left Section - Text Content (Centers on Small Screens) */}
         <div className="max-w-lg w-full flex flex-col items-center md:items-start text-center md:text-left">
@@ -75,7 +75,7 @@ const Home = () => {
       </div>
 
       {/* Third Section - Below First */}
-      <div className="container mx-auto flex flex-col items-center text-center">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center text-center">
         {/* Section Title - Centered */}
         <div className="max-w-xl">
           <p className="text-lg font-semibold text-blue-600">Power-packed with everything you need.</p>
@@ -179,7 +179,7 @@ const Home = () => {
       </div>
 
       {/* Fourth Section - Below First */}
-      <div className="container mx-auto flex flex-col items-start md:flex-col justify-between">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-start md:flex-col justify-between">
         {/* Left Content Section */}
         <div className="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center justify-between">
           {/* Left Content Section */}
@@ -203,7 +203,7 @@ const Home = () => {
         </div>
 
         {/* Learning Resources Section */}
-        <div className="container mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
+        <div className="max-w-screen-xl mx-auto px-6 py-12 flex flex-col md:flex-row items-center gap-10">
           {/* Left Section - Image Grid (50% width) */}
           <div className="w-full md:w-1/2 flex flex-wrap gap-6 justify-start">
             
@@ -245,7 +245,7 @@ const Home = () => {
       </div>
 
       {/* Fifth Section - Below First */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center gap-10">
         {/* Left Section - Text + QR Code */}
         <div className="w-full md:w-1/2 flex flex-col items-center md:items-start text-center md:text-left">
           <div>
@@ -280,7 +280,7 @@ const Home = () => {
       </div>
       
       {/* sixth Section - Below First */}
-      <div className="container mx-auto flex flex-col items-center mb-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col items-center mb-10">
 
         {/* Bluestock App Promo Banner */}
         <div className="w-full bg-blue-300 text-white text-center py-8 rounded-t-lg flex flex-col md:flex-row justify-center md:justify-evenly items-center gap-6">
@@ -304,7 +304,7 @@ const Home = () => {
       </div>
 
       {/* seventh Section - Below First */}
-      <div className="container mx-auto mb-10">
+      <div className="max-w-screen-xl mx-auto mb-10">
       
         {/* Section Title + Arrows */}
         <div className="w-full flex justify-between items-center">
@@ -379,7 +379,7 @@ const Home = () => {
       </div>
 
       {/* Eight Section - Below First */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center md:justify-between gap-10">
+      <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row items-center md:justify-between gap-10">
 
         {/* Left Section - Title & Broker Selection */}
         <div className="md:w-1/2 flex flex-col text-center md:text-left items-start">
