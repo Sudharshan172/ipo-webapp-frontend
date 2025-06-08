@@ -8,7 +8,7 @@ import Upcoming from "./pages/IPO/Upcoming";
 import Community from "./pages/Community";
 import Brokers from "./pages/Brokers";
 import Signin from "./pages/Signin";
-import SignupNow from "./pages/SignupNow";
+import SignUpNow from "./pages/SignUpNow";
 import NotFound from "./pages/NotFound";
 
 // Products Dropdown Pages
@@ -52,7 +52,7 @@ const App = () => {
         {/* Public Routes */}
         <Route path="/" element={<Home />} />
         <Route path="/signin" element={<Signin />} />
-        <Route path="/signupnow" element={<SignupNow />} />
+        <Route path="/signupnow" element={<SignUpNow />} />
 
         {/* Protected Routes */}
         <Route path="/ipo" element={isAuthenticated ? <IPO /> : <Navigate replace to="/signin" />} />
