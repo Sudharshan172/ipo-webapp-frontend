@@ -135,5 +135,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # Allow your React frontend
+    "http://localhost:5173",  # Allow local development
+    "https://instamart-frontend-ph88.onrender.com",  # Your deployed frontend
 ]
