@@ -141,7 +141,7 @@ const IPO = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-6">
+    <div className="max-w-screen-xl mx-auto px-4 py-6">
       {/* Section Header */}
       <h2 className="text-2xl font-bold text-blue-600 mb-2">IPO</h2>
       <p className="text-gray-700">Following is the list of companies for IPO as of today.</p>
@@ -284,7 +284,7 @@ const IPO = () => {
         </div>
       </div>
 
-      <div className="container mx-auto rounded-lg mt-5">
+      <div className="max-w-screen-xl mx-auto rounded-lg mt-5">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           
           {/* IPO News Section */}
@@ -321,7 +321,7 @@ const IPO = () => {
       </div>
 
       {/* FAQ Section - Now Moved to Bottom */}
-      <div className="container mx-auto mt-10">
+      <div className="max-w-screen-xl mx-auto mt-10">
         <div className="text-black text-start rounded-lg p-2">
           <h1 className="text-2xl font-bold mb-2">Frequently Asked Questions?</h1>
           <p className="text-sm">Find answers to common questions that come in your mind related to IPO.</p>
