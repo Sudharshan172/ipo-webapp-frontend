@@ -3,7 +3,7 @@ import { FaFacebook, FaTwitter, FaYoutube, FaLinkedin, FaInstagram, FaTelegram }
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-6">
-      <div className="container mx-auto">
+      <div className="max-w-screen-xl mx-auto">
 
         {/* Footer Content - Grid Layout */}
         <div className="flex flex-wrap gap-4 text-center mb-10 p-10">
